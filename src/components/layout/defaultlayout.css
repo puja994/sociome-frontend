@@ -1,0 +1,10 @@
+.color-nav{
+    background: green !important;
+}
+.main{
+    min-height:90vh;
+ }
+ .copyright-text{
+     min-height:5vh;
+     background-color : green;
+ }

@@ -17,13 +17,6 @@ export const Header = () => {
          
           <Nav className="ml-auto">
 
-          {/* <LinkContainer to="/">
-             <Nav.Link>DASHBOARD</Nav.Link>
-            </LinkContainer>
-
-            <LinkContainer to="/shifts">
-              <Nav.Link>SHIFTS</Nav.Link>
-            </LinkContainer> */}
 
               <LinkContainer to="/">
              <Nav.Link>LOGIN</Nav.Link>

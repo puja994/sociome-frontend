@@ -1,0 +1,11 @@
+.private-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.privategroup-btn{
+   
+   width: 300px;
+   margin-bottom: 50px;
+   
+}

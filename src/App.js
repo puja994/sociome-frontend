@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
 import { Login } from './pages/Login';
 import { Signup } from './pages/Signup';
 import { DashboardPage } from './pages/dashboard/DashboardPage';
+import { Group } from './pages/group/Group';
 
 function App() {
   return (
@@ -12,7 +13,11 @@ function App() {
       <Router>
         <Switch>
 
-          <Route exact path="/">
+        <Route exact path="/">
+          <Group/>
+          </Route>
+
+          <Route exact path="/login">
           <Login/>
           </Route>
 

@@ -17,12 +17,16 @@ export const Header = () => {
          
           <Nav className="ml-auto">
 
+          <LinkContainer to="/">
+             <Nav.Link>FEED</Nav.Link>
+             </LinkContainer>
 
-              <LinkContainer to="/">
+
+              <LinkContainer to="/login">
              <Nav.Link>LOGIN</Nav.Link>
              </LinkContainer>
 
-             <LinkContainer to="signup">
+             <LinkContainer to="/signup">
             <Nav.Link>SIGNUP</Nav.Link>
             </LinkContainer>
           </Nav>

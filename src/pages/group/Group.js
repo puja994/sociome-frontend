@@ -8,11 +8,12 @@ import { PrivateLayout } from '../../components/layout/PrivateLayout'
 
 export const Group = () => {
     return (
-       <PrivateLayout>
+      <DefaultLayout>
             <SearchGroup/>
             <PrivateGroup/>
             <GroupFeed/>
-            </PrivateLayout>
+            </DefaultLayout>
+            
            
      
     )

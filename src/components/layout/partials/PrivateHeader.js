@@ -1,12 +1,15 @@
 import React from 'react'
 import {  Navbar, Nav} from "react-bootstrap"
-import { LinkContainer } from "react-router-bootstrap"
+import { LinkContainer, Tooltip, OverlayTrigger, Button, Image, NavDropdown, Item,Container, Dropdown} from "react-router-bootstrap"
 import '../defaultlayout.css'
 
 export const PrivateHeader = () => {
+
+   
+
     return (
         <div>
-            <Navbar collapseOnSelect  variant="dark" expand="md" className="color-nav">
+            <Navbar collapseOnSelect  variant="dark" expand="md" className="color-nav" sticky="top">
 
 <Navbar.Brand>
  SOCIOME
@@ -18,15 +21,30 @@ export const PrivateHeader = () => {
   <Nav className="ml-auto">
 
 
-      <LinkContainer to="/">
-     <Nav.Link>FEED</Nav.Link>
-     </LinkContainer>
+      {/* <LinkContainer to="/account">
+     <Nav.Link>Account</Nav.Link>
+     </LinkContainer> */}
 
-     <LinkContainer to="/">
-    <Nav.Link>ACCOUNT</Nav.Link>
+     <LinkContainer to="/account">
+    <Nav.Link>
+    
+
+
+        <i class="fas fa-user-circle fa-2x"></i>
+
+        
+        
+        </Nav.Link>
+
+       
+
     </LinkContainer>
   </Nav>
+
+ 
+
 </Navbar.Collapse>
+
 </Navbar>
         </div>
     )

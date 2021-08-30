@@ -5,6 +5,8 @@ import { Login } from './pages/Login';
 import { Signup } from './pages/Signup';
 import { DashboardPage } from './pages/dashboard/DashboardPage';
 import { Group } from './pages/group/Group';
+import { AccountPage } from './pages/account/AccountPage';
+import { GroupDescriptionPage } from './pages/groupdescription/GroupDescriptionPage';
 
 function App() {
   return (
@@ -27,6 +29,14 @@ function App() {
 
           <Route exact path = "/signup">
           <Signup/>
+          </Route>
+
+          <Route exact path = "/account">
+          <AccountPage/>
+          </Route>
+
+          <Route exact path = "/groupdescription">
+            <GroupDescriptionPage/>
           </Route>
 
           <Route path="*">

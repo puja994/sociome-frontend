@@ -1,0 +1,23 @@
+.group-photo{
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.description{
+    display: flex;
+    justify-content: end;
+}
+.flexbox-container {
+    display: flex;
+    flex-direction: row;
+}
+.sidebar{
+margin-top: 80px;
+margin-left: 80px;
+margin-right: 80px;
+}
+.downbar{
+    margin-left: 80px;
+    width: 600px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}

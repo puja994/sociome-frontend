@@ -7,6 +7,7 @@ import { DashboardPage } from './pages/dashboard/DashboardPage';
 import { Group } from './pages/group/Group';
 import { AccountPage } from './pages/account/AccountPage';
 import { GroupDescriptionPage } from './pages/groupdescription/GroupDescriptionPage';
+import { VideoConferencePage } from './pages/videoconference/VideoConferencePage';
 
 function App() {
   return (
@@ -37,6 +38,10 @@ function App() {
 
           <Route exact path = "/groupdescription">
             <GroupDescriptionPage/>
+          </Route>
+
+          <Route exact path = "/videoconference">
+            <VideoConferencePage/>
           </Route>
 
           <Route path="*">
